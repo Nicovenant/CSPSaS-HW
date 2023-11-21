@@ -12,7 +12,7 @@ def show_frequency(x, y, i):
   plt.ylabel("amplitude")
   plt.grid()
 
-frequency = 4
+frequency = 7
 samples = 100
 x = np.arange(samples)
 y1 = np.sin(2*np.pi*frequency*(x/samples))
